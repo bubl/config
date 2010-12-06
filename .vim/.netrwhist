@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/martin/games/HoN/compat'
+let g:netrw_dirhist_2='/home/martin/src/python/pandatools/lillavilla'
+let g:netrw_dirhist_3='/home/martin/src/python/pandatools'
+let g:netrw_dirhist_4='/home/martin/src/php'
+let g:netrw_dirhist_5='/home/martin/src/php/tempdir'
