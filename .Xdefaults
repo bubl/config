@@ -1,0 +1,49 @@
+!Xdefaults
+
+!URxvt*transparent: true
+!URxvt*shading: 44
+
+!URxvt.termName: rxvt-256color
+URxvt.termName: xterm
+
+URxvt*cursorColor: #FFFF44
+URxvt*cursorColor2: #252525
+URxvt*foreground: #FFFFFF
+!URxvt*background: #121212
+URxvt*background: #0D0D0D
+URxvt*color0: #121212
+URxvt*color1: #8E5C4E
+URxvt*color2: #6C7E55
+URxvt*color3: #B89F63
+URxvt*color4: #7FB8D8
+URxvt*color5: #956D9D
+URxvt*color6: #4c8ea1
+URxvt*color7: #808080
+URxvt*color8: #454545
+URxvt*color9: #CC896D
+URxvt*color10: #C4DF90
+URxvt*color11: #FFE080
+URxvt*color12: #B8DDEA
+URxvt*color13: #C18FCB
+URxvt*color14: #6bc1d0
+URxvt*color15: #cdcdcd
+
+
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:      	rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+
+
+URxvt*font: xft:DejaVu Sans Mono:antialias=true:pixelsize=13
+URxvt*boldFont: xft:DejaVu Sans Mono:style=bold:antialias=true:pixelsize=13
+
+URxvt.scrollBar: false
+URxvt.underlineURLs: false
+URxvt.urlLauncher: /usr/bin/chromium-browser
+URxvt.matcher.button: 1
+URxvt.cutchars: "()*,<>[]{}|'"
+URxvt.matcher.pattern.1: \\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
+URxvt.matcher.launcher.1: 
+URxvt.perl-ext-common: default,matcher
